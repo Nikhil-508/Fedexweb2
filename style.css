@@ -1,0 +1,395 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    background-image: url(https://cdn.bfldr.com/I22OPSFM/at/sqvwp5wqszhw4743ssqkkc3q/2019_Marrakech_35941.jpg?auto=webp&fit=bounds&format=jpg&crop=1200%3A450%2Csmart&width=1200&height=450&);
+    height: 600px;
+    background-attachment: ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-items-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: inherit;
+}
+
+.three-box{
+    display: flex;
+}
+
+.box{
+    height: 170px;
+    width: 190px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box h2{
+    text-align: center;
+}
+
+.box:hover{
+    color: white;
+    background-color: #4d148c;
+    cursor: pointer;
+}
+.search-div{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+
+}
+.search-el-one {
+  display: flex;
+  height: 60px;
+}
+
+.search-el-one input {
+  width: 70%;
+}
+
+.search-el-one button {
+  width: 30%;
+  background-color: chocolate;
+}
+.search-el-two a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+
+
+
+/*dsfsdfisdj */
+
+.navbar{
+    background-color:#4d148c ;
+    width: 100%;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.nav-center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-ul li{
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.right{
+    display: flex;
+    color: white;
+}
+.search{
+    margin-left: 25px;
+}
+.search-el-two
+header{
+    position: fixed;
+    width: 100%;
+}
+.nav-ul .fa{
+    color: white;
+    margin-left: 8px;
+}
+.banner-items-center h1{
+    color: white;
+    margin-top: 140px;
+    font-size: 70px;
+    font-weight: 300;
+}
+.left .logo{
+    size: 38px;
+}
+
+.content-wrapper {
+    display: flex;
+    -ms-flex-align: center;
+    padding: 17px;
+  }
+  
+  .content-wrapper .imageandicon {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content-wrapper .imageandicon > div {
+    width: 25%;
+   
+  }
+  
+  .content-wrapper .imageandicon img {
+    max-width: 30%;
+  }
+  .maintxt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 72px;
+    margin-bottom: 110px
+  }
+   .imageandicon h2{
+    font-size: 17px;
+  }
+  .blue{
+    padding: 100px;
+  }
+  .bluebox{
+    display: flex;
+    flex-direction: row;
+    background-color: #4d148c;
+    padding: 120px;
+    width: 1286px;
+    height: 361px;
+    padding-top: 80px;
+    justify-content: space-evenly;
+  }
+  .bluecontent{
+    color: white;
+  }
+  .bluecontent a{
+    text-decoration: none;
+    color: white;
+  }
+ .open{
+    background-color: rgb(218, 73, 0);
+    color: white;
+    font-size: 20px;
+    height: 57px;
+    width: 253px;
+    border: none;
+  }
+  .rprtfrdbg{
+    padding: 100px;
+  }
+  .reportfraud{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 120px;
+    width: 1286px;
+    height: 361px;
+  }
+  .lefttxt{
+    color: black
+  }
+  .lrnmre{
+    background-color: transparent;
+    border-radius: 7px;
+
+  }
+  .keyboard{
+    width: 500px;
+    height: 360px;
+    position: relative;
+    left: 119px;
+  }
+  .enews{
+    padding: 100px;
+  }
+  .e-news{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 120px;
+    width: 1286px;
+    height: 361px;
+  }
+  .lefttxt1{
+    color: black
+  }
+  .signup{
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 7px;
+  }
+  .ladyimage{
+    width: 500px;
+    height: 360px;
+    position: relative;
+    left: 119px;
+  }
+  .grid{
+    display: flex;
+    margin: 100px;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .btn3 a{
+    text-decoration: none;
+  }
+  .btn3{
+    background-color: whitesmoke;
+    border-radius: 100px;
+    color: #4d148c;
+    border-color: #4d148c;
+    width: 150px;
+    height: 50px;
+  }
+  .imageandtxt{
+    flex-basis: 33.3%;
+    text-align: center;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .grid h1{
+    font-weight: 400;
+  }
+  
+  .imageandtxt img{
+    max-width: 100%;
+  }
+  .gridandtxt{
+    display: flex;
+  }
+  .twopictxt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .twogrid img{
+    max-width: 100%;
+    padding: 40px;
+  }
+  
+
+  .twopic{
+    flex-basis: 50%;
+    text-align: center;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .twogrid h1{
+    font-weight: 400;
+  }
+  .twogrid button{
+    width: 130px;
+    height: 50px;
+    border-radius: 12px;
+    border-color: #4d148c;
+    background-color: transparent;
+    border-width: 3px;
+  }
+  .fedexinida{
+    padding: 100px;
+  }
+  .fedexnews{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 120px;
+    width: 1286px;
+    height: 361px;
+  }
+  .flighttxt .head{
+    color: black;
+    
+  }
+  .btnview{
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 7px;
+    position: relative;
+    top: 25px;
+  }
+  .flight{
+    position: relative;
+    width: 427px;
+    height: 285px;
+    margin: 20px;
+  }
+ .fedex50{
+    position: relative;
+    left: 100px;
+ }
+ .image50{
+    height: 135px;
+    width: 152px;
+ }
+.link a{
+  text-decoration: none;
+ }
+ footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 412px;
+  background-color: whitesmoke;
+  
+ }
+ .fedexfooter{
+  display: flex;
+  justify-content: space-between;
+
+ }
+.fedexfooter ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: 30px;
+}
+.fedexfooter ul {
+  list-style: none;
+  padding-top: 18px;
+  font-size: 15px;
+  font-weight: 350;
+
+}
+
+.fedexfooter h2{
+  color: #4d148c;
+  font-size: medium;
+  padding: 30px;
+}
+.sub {
+  padding: 20px;
+}
+
+
