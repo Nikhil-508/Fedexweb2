@@ -344,9 +344,17 @@ header{
     height: 285px;
     margin: 20px;
   }
- .fedex50{
-    position: relative;
-    left: 100px;
+ .fedexfifty{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+
+ }
+ .fedexfifty a{
+  text-decoration: none;
+  font-size: 22px;
  }
  .image50{
     height: 135px;
